@@ -1,9 +1,5 @@
 # ButterCMS Flask Example
 
-## Documentation
-
-For a comprehensive list of examples, check out our [documentation](https://buttercms.com/docs/).
-
 ## Get Started
 
 This is a sample flask application that uses ButterCMS to power it's blog. 
@@ -31,7 +27,3 @@ app.register_blueprint(blog, url_prefix='/blog')
 Configure the API key in `buttercms/blog_blueprint.py` and then go to /blog to see your blog posts on ButterCMS appear in your app. 
 
 It's that easy!
-
-### Other
-
-View Flask [Blog engine](https://buttercms.com/flask-blog-engine/) and [Full CMS](https://buttercms.com/flask-cms/) for other examples of using ButterCMS with Flask.
